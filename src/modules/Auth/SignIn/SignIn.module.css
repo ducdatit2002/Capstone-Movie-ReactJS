@@ -1,1 +1,73 @@
-/*# sourceMappingURL=SignIn.module.css.map */
+.signIn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.signIn .signInContent {
+  margin-top: 50px;
+  background-color: #fff;
+  width: 500px;
+  border-radius: 30px;
+  padding: 30px;
+  border: 2px solid black;
+}
+@media screen and (max-width: 515px) {
+  .signIn .signInContent {
+    height: 100vh;
+    border-radius: 0;
+    margin-top: 0px;
+  }
+}
+.signIn .signInContent .iconSignIn {
+  font-size: 50px;
+  color: #fb4226;
+}
+.signIn .signInContent .formSignIn {
+  margin-top: 50px;
+}
+.signIn .signInContent .formSignIn .inputSignIn {
+  margin-bottom: 10px;
+}
+.signIn .signInContent .formSignIn .inputSignIn label {
+  text-align: left;
+  display: block;
+  font-size: 14px;
+}
+.signIn .signInContent .formSignIn .inputSignIn input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.signIn .signInContent .formSignIn .inputSignIn input:focus {
+  border-color: #fb4226;
+}
+.signIn .signInContent .formSignIn .txtError {
+  color: red;
+  text-align: left;
+  font-size: 14px;
+  margin: 0;
+}
+.signIn .signInContent .formSignIn .btnSignIn {
+  margin-top: 40px;
+}
+.signIn .signInContent .formSignIn .btnSignIn button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fb633a;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  border: 2px solid black;
+}
+.signIn .signInContent .formSignIn .btnSignIn button:hover {
+  color: #fb633a;
+  background-color: #fff;
+  border-color: #fb633a;
+}
+.signIn .signInContent .linkSignUp span {
+  padding: 0 5px 0;
+  color: #0a58ca;
+}/*# sourceMappingURL=SignIn.module.css.map */

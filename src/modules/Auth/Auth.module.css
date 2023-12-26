@@ -1,1 +1,7 @@
-/*# sourceMappingURL=Auth.module.css.map */
+.wrapAuth {
+  background-image: url("../../../public/img/movie-details-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}/*# sourceMappingURL=Auth.module.css.map */

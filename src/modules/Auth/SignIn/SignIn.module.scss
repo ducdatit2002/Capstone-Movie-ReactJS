@@ -1,0 +1,86 @@
+.signIn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    .signInContent {
+        margin-top: 50px;
+      background-color: #fff;
+      width: 500px;
+      border-radius: 30px;
+      padding: 30px;
+      border: 2px solid black;
+      
+  
+      @media screen and (max-width: 515px) {
+        height: 100vh;
+        border-radius: 0;
+        margin-top: 0px;
+  
+      }
+  
+      .iconSignIn {
+        font-size: 50px;
+        color: #fb4226;
+      }
+  
+      .formSignIn {
+          margin-top: 50px;
+        .inputSignIn {
+          margin-bottom: 10px;
+          label {
+              text-align: left;
+              display: block;
+              font-size: 14px;
+      
+            }
+  
+          input {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+    
+            &:focus {
+                border-color: #fb4226;
+            }
+          }
+  
+        }
+        .txtError{
+            color: red;
+            text-align: left;
+            font-size: 14px;
+            margin: 0;
+        }
+        
+  
+        .btnSignIn {
+          margin-top: 40px;
+          button {
+            width: 100%;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: #fb633a;
+            color: #fff;
+            font-weight: 700;
+            font-size: 20px;
+            border: 2px solid black;
+  
+            &:hover {
+              color: #fb633a;
+              background-color: #fff;
+              border-color: #fb633a;
+            }
+          }
+        }
+      }
+      .linkSignUp {
+        span {
+          padding: 0 5px 0;
+          color: #0a58ca;
+        }
+      }
+    }
+  }
