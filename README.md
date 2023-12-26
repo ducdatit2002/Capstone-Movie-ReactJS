@@ -2,7 +2,6 @@
 # CAPSTONE MOVIE  
 Click here --> <a href="" target="_blank">Movie Website</a>
 
-### Group: TADA TEAM
 ### Our team member
 | Index | Name                |      Github account             |
 |:------|:-----------------------|:---------------------------|
