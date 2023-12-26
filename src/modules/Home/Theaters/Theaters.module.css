@@ -1,1 +1,134 @@
-/*# sourceMappingURL=Theaters.module.css.map */
+.wrapTheaters {
+  color: white;
+  padding: 30px 0;
+}
+@media screen and (max-width: 768.98px) {
+  .wrapTheaters {
+    padding: 0;
+  }
+}
+.wrapTheaters .containerTheater {
+  max-width: 1320px;
+  margin: auto;
+}
+.wrapTheaters .Theaters {
+  background-color: rgba(0, 0, 0, 0.3803921569);
+  padding: 30px 0;
+  border-top: 3px solid skyblue;
+  border-bottom: 3px solid skyblue;
+  border-radius: 3%;
+}
+.wrapTheaters .Theaters .allLogoTheaters {
+  text-align: center;
+  padding-bottom: 5px;
+  padding-left: 0;
+  border-bottom: 3px solid grey;
+}
+.wrapTheaters .Theaters .allLogoTheaters img {
+  width: 60px;
+  height: 60px;
+}
+@media screen and (max-width: 768px) {
+  .wrapTheaters .Theaters .allLogoTheaters img {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .wrapTheaters .Theaters .allLogoTheaters img {
+    width: 30px;
+    height: 30px;
+  }
+}
+.wrapTheaters .Theaters .allLogoTheaters li:focus:after {
+  background-color: #fff;
+  height: 2px;
+  bottom: -7px;
+}
+.wrapTheaters .Theaters .wrapDetailTheater .detailTheater {
+  text-align: left;
+  padding: 20px;
+  border-top: 3px solid skyblue;
+  border-left: 2px solid skyblue;
+  border-radius: 20%;
+}
+@media screen and (max-width: 998px) {
+  .wrapTheaters .Theaters .wrapDetailTheater .detailTheater .container {
+    width: 100%;
+    margin: 0;
+  }
+}
+.wrapTheaters .Theaters .wrapDetailTheater .detailTheater p {
+  margin: 0;
+}
+.wrapTheaters .Theaters .wrapDetailTheater .detailTheater li {
+  padding: 0;
+}
+@media screen and (max-width: 1200px) {
+  .wrapTheaters .Theaters .wrapDetailTheater .detailTheater {
+    padding: 15px;
+  }
+  .wrapTheaters .Theaters .wrapDetailTheater .detailTheater h6 {
+    font-size: 14px;
+  }
+  .wrapTheaters .Theaters .wrapDetailTheater .detailTheater p {
+    font-size: 14px;
+  }
+}
+.wrapTheaters .Theaters .wrapDetailTheater .wrapMovie {
+  width: 100%;
+}
+.wrapTheaters .Theaters .wrapDetailTheater .wrapMovie .listMovie {
+  padding: 10px;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+}
+.wrapTheaters .Theaters .wrapDetailTheater .wrapMovie .listMovie .imgMovie {
+  text-align: center;
+}
+.wrapTheaters .Theaters .wrapDetailTheater .wrapMovie .listMovie .imgMovie img {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+}
+@media screen and (max-width: 768.98px) {
+  .wrapTheaters .Theaters .wrapDetailTheater .wrapMovie .listMovie .imgMovie img {
+    width: 100px;
+    height: 150px;
+  }
+}
+.wrapTheaters .Theaters .wrapDetailTheater .wrapMovie .listMovie .imgMovie h4 {
+  color: yellow;
+}
+.wrapTheaters .Theaters .wrapDetailTheater .wrapMovie .listMovie .schedule {
+  padding: 7px;
+}
+.wrapTheaters .Theaters .wrapDetailTheater .wrapMovie .listMovie .schedule p {
+  text-align: center;
+  margin: 0;
+  border: 3px solid skyblue;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgba(135, 206, 235, 0.2392156863);
+  text-shadow: 1px 1px 2px black, 0 0 25px skyblue, 0 0 5px darkblue;
+  font-weight: 700;
+  padding: 5px;
+}
+@media screen and (max-width: 1200px) {
+  .wrapTheaters .Theaters .wrapDetailTheater .wrapMovie .listMovie .schedule p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .wrapTheaters .Theaters .wrapDetailTheater .wrapMovie .listMovie .schedule p {
+    font-size: 12px;
+    padding: 2px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .wrapTheaters .Theaters .wrapDetailTheater .wrapMovie .listMovie .schedule p {
+    font-size: 8px;
+  }
+}/*# sourceMappingURL=Theaters.module.css.map */
