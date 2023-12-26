@@ -1,0 +1,120 @@
+
+
+.vp-sidedock SideDock_module_root__33c9db1d {
+    visibility: hidden;
+}
+.Intro{
+    background-color: #31304D;
+    position: relative;
+    padding-top: 56%;
+
+
+    .videoIntro{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .infoIntro{
+        background-image: linear-gradient(45deg, #fb6439 0%, rgb(250, 82, 82) 100%);
+        background-clip: text;
+        color: transparent;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        top: 0;
+        left: 0;
+        padding: 15% 20px;
+
+
+        .headingIntro {
+            font-size: 60px;
+            font-family: 'Pacifico', cursive;
+            letter-spacing: 10px;
+            line-height: 1.5;
+
+            @media screen and (max-width: 998.98px) {
+                font-size: 35px;
+            }
+    
+            @media  screen and (max-width: 768px) {
+                font-size: 25px;
+            }
+
+            @media  screen and (max-width: 600px) {
+                font-size: 15px;
+            }
+
+            @media  screen and (max-width: 400px) {
+                font-size: 10px;
+            }      
+            
+        }
+
+        .contentIntro {
+            max-width: 550px;
+            width: 100%;
+            line-height: 1.5;
+            padding-top: 25px;
+            font-size: 18px;
+
+            @media screen and (max-width: 800px) {
+                font-size: 16px;
+            }
+    
+            @media  screen and (max-width: 600px) {
+                font-size: 14px;
+
+            }    
+        }
+
+    }
+
+    .iconMute {
+        position: absolute;
+        top: 50%;
+        right: 40px;
+        color: #bbb;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 50%;
+        cursor: pointer;
+        transform: scale(1);
+        transition: all .5 ease;
+
+        &:hover {
+            color: #fff;
+            transform: scale(1.2);
+            background-color: rgba(211,211,211,0.18) ;
+        }
+
+        
+        @media screen and (max-width: 800px) {
+            width: 30px;
+            height: 30px;
+        }
+
+
+    }
+
+    .fadeBottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 20%;
+        background-image: linear-gradient(
+            180deg,
+            transparent,
+            rgba(15,15,15,0.6) 40%,
+            rgba(17,17,17),
+            rgba(17,17,17),
+        );
+    }
+
+}

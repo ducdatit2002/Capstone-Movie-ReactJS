@@ -1,1 +1,105 @@
-/*# sourceMappingURL=Intro.module.css.map */
+.vp-sidedock SideDock_module_root__33c9db1d {
+  visibility: hidden;
+}
+
+.Intro {
+  background-color: #31304D;
+  position: relative;
+  padding-top: 56%;
+}
+.Intro .videoIntro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.Intro .infoIntro {
+  background-image: linear-gradient(45deg, #fb6439 0%, rgb(250, 82, 82) 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  padding: 15% 20px;
+}
+.Intro .infoIntro .headingIntro {
+  font-size: 60px;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 10px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 998.98px) {
+  .Intro .infoIntro .headingIntro {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Intro .infoIntro .headingIntro {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Intro .infoIntro .headingIntro {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Intro .infoIntro .headingIntro {
+    font-size: 10px;
+  }
+}
+.Intro .infoIntro .contentIntro {
+  max-width: 550px;
+  width: 100%;
+  line-height: 1.5;
+  padding-top: 25px;
+  font-size: 18px;
+}
+@media screen and (max-width: 800px) {
+  .Intro .infoIntro .contentIntro {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Intro .infoIntro .contentIntro {
+    font-size: 14px;
+  }
+}
+.Intro .iconMute {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  color: #bbb;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 0.5 ease;
+}
+.Intro .iconMute:hover {
+  color: #fff;
+  transform: scale(1.2);
+  background-color: rgba(211, 211, 211, 0.18);
+}
+@media screen and (max-width: 800px) {
+  .Intro .iconMute {
+    width: 30px;
+    height: 30px;
+  }
+}
+.Intro .fadeBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  background-image: linear-gradient(180deg, transparent, rgba(15, 15, 15, 0.6) 40%, rgb(17, 17, 17), rgb(17, 17, 17));
+}/*# sourceMappingURL=Intro.module.css.map */

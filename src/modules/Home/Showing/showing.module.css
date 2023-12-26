@@ -1,1 +1,36 @@
-/*# sourceMappingURL=showing.module.css.map */
+.wrapShowing {
+  padding: 30px 0;
+}
+.wrapShowing .showing {
+  border: 3px solid #fb633a;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5019607843);
+}
+.wrapShowing .showing .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  gap: 5px;
+  margin: 2rem 0;
+}
+.wrapShowing .showing .pagination .page__num {
+  padding: 8px 15px;
+  font-weight: 400;
+  background-color: #fff;
+  color: #fb633a;
+  border-radius: 50%;
+  border: 1px solid #fb633a;
+  cursor: pointer;
+}
+.wrapShowing .showing .pagination .page__num:hover {
+  background-color: #fb633a;
+  color: #fff;
+  border-color: #fff;
+}
+.wrapShowing .showing .pagination .paginate__active {
+  background-color: #fb633a;
+  color: #fff;
+  border-color: #fff;
+}/*# sourceMappingURL=showing.module.css.map */

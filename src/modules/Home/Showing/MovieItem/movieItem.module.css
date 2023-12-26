@@ -1,1 +1,110 @@
-/*# sourceMappingURL=movieItem.module.css.map */
+.movieItem {
+  max-height: 400px;
+  max-width: 300px;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  transform: scale(1);
+  border-radius: 20px;
+  transition: all 0.5s;
+  position: relative;
+}
+@media screen and (max-width: 784px) {
+  .movieItem {
+    height: 350px;
+  }
+}
+.movieItem:hover {
+  transform: scale(1.05);
+  position: relative;
+  z-index: 9;
+}
+.movieItem:hover .overlay {
+  opacity: 1;
+}
+.movieItem .hinhAnh {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.movieItem .heading {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4901960784);
+  color: #fff;
+}
+@media screen and (max-width: 400px) {
+  .movieItem .heading {
+    font-size: 12px;
+  }
+}
+.movieItem .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5803921569);
+  z-index: 9;
+  opacity: 0;
+}
+.movieItem .overlay .icon {
+  position: absolute;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  top: 30%;
+  color: #fb633a;
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  border: 1px solid #fb633a;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 55px;
+  padding-bottom: 2px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  transform: scale(1);
+}
+@media screen and (max-width: 768.98px) {
+  .movieItem .overlay .icon {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .movieItem .overlay .icon {
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    font-size: 20px;
+  }
+}
+.movieItem .overlay .icon:hover {
+  background-color: #fb633a;
+  color: #fff;
+  transform: scale(1.3);
+  border-color: #fff;
+}
+.movieItem .overlay .button {
+  text-align: center;
+  margin-top: 30px;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.movieItem .modal {
+  color: #fb633a;
+}
+.movieItem .video {
+  top: 0;
+  left: 0;
+}/*# sourceMappingURL=movieItem.module.css.map */
