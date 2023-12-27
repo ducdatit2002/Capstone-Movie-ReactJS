@@ -1,5 +1,5 @@
 
-# CAPSTONE MOVIE  
+# CAPSTONE FRONTEND MOVIE (USING REACTJS)
 Click here --> <a href="https://capstone-movie-bc54.surge.sh/" target="_blank">Movie Website</a>
 
 ### Our team member
