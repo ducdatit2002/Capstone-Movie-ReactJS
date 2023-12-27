@@ -1,0 +1,16 @@
+.wrapRoot{
+  background-image: url("../../../public/img/movie-details-bg.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+.playerWrap {
+  position: relative;
+  padding-top: 50%;
+
+  .videoModal {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+

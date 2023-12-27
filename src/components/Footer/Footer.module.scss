@@ -1,0 +1,111 @@
+footer {
+  background-color: #31304d;
+  margin: 3rem 0 0;
+  color: #a5a2a1;
+  border-top: 3px solid #fb6600;
+  border-radius: 10%;
+
+  @media screen and (max-width: 600px) {
+    border-radius: 5%;
+  }
+
+  h4 {
+    text-align: center;
+    color: #fff;
+  }
+
+  .footerTop {
+    margin-bottom: 30px;
+
+    .footerFirst {
+      .title {
+        margin: 20px 0;
+        a {
+          background-image: linear-gradient(
+            45deg,
+            #fb6439 0%,
+            rgb(250, 82, 82) 100%
+          );
+          background-clip: text;
+          color: transparent;
+          font-size: 50px;
+          transition: all 0.5s;
+          border-bottom: 10px solid #fff;
+          border-left: 2px solid #fff;
+          border-radius: 20% 30% 46% 30%;
+          cursor: pointer;
+          transition: all 0.5s ease;
+
+          @media screen and (max-width: 998.98px) {
+            font-size: 35px;
+            border-bottom: 8px solid #fff;
+          }
+          @media screen and (max-width: 768.98px) {
+            font-size: 30px;
+          }
+
+          &:hover {
+            color: red;
+            border-color: #fb633a;
+            transition: all 0.5s;
+            color: #fff;
+          }
+        }
+      }
+
+      .footerSocial {
+        text-align: center;
+        svg {
+          font-size: 20px;
+          width: 40px;
+          height: 40px;
+          border: 1px solid #ff6600;
+          padding: 5px;
+          margin: 0 10px;
+          border-radius: 5px;
+          color: #ff6600;
+          cursor: pointer;
+          background-color: #fff;
+
+          &:hover {
+            background-color: #ff6600;
+            color: #fff;
+          }
+
+          @media screen and (max-width: 500px) {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+    }
+
+    .footerSub {
+      input {
+        padding: 15px;
+        width: 100%;
+        border-radius: 5px;
+        border-color: transparent;
+      }
+
+      button {
+        margin-top: 10px;
+        width: 100%;
+        background-color: #fb6600;
+        color: #fff;
+        padding: 15px 10px;
+      }
+    }
+  }
+
+  .footerBot {
+    text-align: center;
+    color: #a5a2a1;
+    cursor: pointer;
+    p {
+      &:hover {
+        color: #fb6600;
+      }
+    }
+  }
+}
