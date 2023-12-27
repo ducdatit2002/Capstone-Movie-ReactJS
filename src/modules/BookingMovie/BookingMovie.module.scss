@@ -1,0 +1,15 @@
+.wrapBookingMovie{
+    background-image: url("./movie-details-bg.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 200%;
+    min-height: 100vh;
+
+        .bookingMovie {
+            padding: 10px 0;
+            // border: 3px solid #fb633a;
+            border-radius: 30px;
+            // background-color: #fff;
+        }
+
+}

@@ -1,0 +1,85 @@
+.wrapInfoBooking{
+    margin: 30px auto;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: #fff;
+
+    @media screen and (max-width: 580px) {
+        padding: 20px;
+    }
+    @media screen and (max-width: 400px) {
+        padding: 15px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .tableInfo{
+        tr {
+            td{
+                padding: 16px 0;
+                @media screen and (max-width: 580px) {
+                    padding: 8px 0;
+                }
+            }
+            td:first-of-type{
+                width: 35%;
+                font-size: 18px;
+                font-weight: 600;
+                @media screen and (max-width: 580px) {
+                    font-size: 16px;
+                }
+                @media screen and (max-width: 400px) {
+                    font-size: 14px;
+                }
+            }
+
+            td:last-of-type{
+                text-align: right;
+                @media screen and (max-width: 580px) {
+                    font-size: 12px;
+                }
+                @media screen and (max-width: 400px) {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .totalCost {
+        text-align: center;
+        font-size: 30px;
+        padding: 20px;
+        margin: 0;
+        color: red;
+    }
+
+    .buttonInfo{
+        margin: 0 auto;
+        padding: 15px 10px;
+        border: 3px solid transparent;
+        border-radius: 15px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        // background-image: linear-gradient( 45deg,red 30%, orange 70%);
+        background-color: #fb633a;
+        transition: all .5s ;
+
+        // @media screen and (max-width: ) {
+            
+        // }
+
+        &:hover{
+            // background-image: linear-gradient(45deg,orange 30%,red 70%);
+            background-color: #fff;
+            color: #fb633a;
+            border-color: #fb633a;
+        }
+    }
+
+}

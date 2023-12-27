@@ -1,1 +1,39 @@
-/*# sourceMappingURL=overView.module.css.map */
+.OverView {
+  padding: 40px 0;
+}
+.OverView .OverViewContent {
+  justify-content: center;
+}
+@media screen and (max-width: 468px) {
+  .OverView .OverViewContent h1 {
+    font-size: 20px;
+  }
+  .OverView .OverViewContent p {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+}
+.OverView .OverViewContent .ImgMovie {
+  width: 100%;
+}
+.OverView .OverViewContent .ImgMovie img {
+  width: 100%;
+  height: 550px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+@media screen and (max-width: 992px) {
+  .OverView .OverViewContent .ImgMovie img {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .OverView .OverViewContent .ImgMovie img {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .OverView .OverViewContent .ImgMovie img {
+    height: 300px;
+  }
+}/*# sourceMappingURL=overView.module.css.map */

@@ -1,1 +1,82 @@
-/*# sourceMappingURL=ShowTime.module.css.map */
+.showTime .wrapShowTime .hinhAnhRap {
+  width: 70px;
+  height: 70px;
+}
+@media screen and (max-width: 600px) {
+  .showTime .wrapShowTime .hinhAnhRap {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .showTime .wrapShowTime .hinhAnhRap {
+    width: 50px;
+    height: 50px;
+  }
+}
+.showTime .wrapShowTime .cumRapChieu {
+  padding: 30px;
+}
+@media screen and (max-width: 600px) {
+  .showTime .wrapShowTime .cumRapChieu {
+    padding: 25px 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .showTime .wrapShowTime .cumRapChieu {
+    padding: 15px 5px;
+  }
+}
+.showTime .wrapShowTime .cumRapChieu .InfoTheater {
+  padding: 20px 25px;
+  box-shadow: 3px 5px 21px 0px #6f6f6f;
+  border: 1px solid rgba(255, 255, 255, 0.4784313725);
+  background-color: rgba(0, 0, 0, 0.3490196078);
+}
+@media screen and (max-width: 768.98px) {
+  .showTime .wrapShowTime .cumRapChieu .InfoTheater {
+    padding: 10px 15px;
+  }
+  .showTime .wrapShowTime .cumRapChieu .InfoTheater h4 {
+    font-size: 20px;
+  }
+  .showTime .wrapShowTime .cumRapChieu .InfoTheater p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .showTime .wrapShowTime .cumRapChieu .InfoTheater {
+    padding: 10px;
+  }
+  .showTime .wrapShowTime .cumRapChieu .InfoTheater h4 {
+    font-size: 14px;
+  }
+  .showTime .wrapShowTime .cumRapChieu .InfoTheater p {
+    font-size: 10px;
+  }
+}
+.showTime .wrapShowTime .lichChieuRap .lichChieuPhim {
+  box-shadow: 3px 5px 21px 0px #6f6f6f;
+  border: 1px solid rgba(255, 255, 255, 0.4784313725);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3490196078);
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.5s ease;
+}
+@media screen and (max-width: 768.98px) {
+  .showTime .wrapShowTime .lichChieuRap .lichChieuPhim {
+    font-size: 12px;
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .showTime .wrapShowTime .lichChieuRap .lichChieuPhim {
+    font-size: 9px;
+  }
+}
+.showTime .wrapShowTime .lichChieuRap .lichChieuPhim:hover {
+  color: #fc6636;
+  border-color: #fc6636;
+}/*# sourceMappingURL=ShowTime.module.css.map */

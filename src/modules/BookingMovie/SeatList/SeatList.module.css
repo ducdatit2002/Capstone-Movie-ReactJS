@@ -1,1 +1,143 @@
-/*# sourceMappingURL=SeatList.module.css.map */
+@charset "UTF-8";
+.warpSeatList .screen {
+  border-bottom: 45px solid #bababa;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 100px;
+  width: 100%;
+  filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+  font-size: 25px;
+  margin: 0 auto;
+  position: relative;
+}
+@media screen and (max-width: 768.98px) {
+  .warpSeatList .screen {
+    border-bottom: 35px solid rgb(117, 116, 116);
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .warpSeatList .screen {
+    border-bottom: 25px solid rgb(117, 116, 116);
+    font-size: 16px;
+  }
+}
+.warpSeatList .screen::after {
+  content: "Màn hình";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+}
+.warpSeatList .seatList {
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  gap: 5px;
+  max-width: 100%;
+}
+@media screen and (max-width: 768.98px) {
+  .warpSeatList .seatList {
+    gap: 2px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .warpSeatList .seatList {
+    gap: 0;
+  }
+}
+.warpSeatList .seatList .btnSeat {
+  border: 2px solid black;
+  font-size: 0.9em;
+  padding: 0;
+  border-radius: 5px;
+  background-color: rgb(233, 233, 233);
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  color: black;
+}
+@media screen and (max-width: 768.98px) {
+  .warpSeatList .seatList .btnSeat {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .warpSeatList .seatList .btnSeat {
+    font-size: 8px;
+  }
+}
+.warpSeatList .seatList .gheVip {
+  border: 2px solid black;
+  font-size: 0.9em;
+  padding: 0;
+  border-radius: 5px;
+  background-color: orange;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  color: black;
+}
+@media screen and (max-width: 768.98px) {
+  .warpSeatList .seatList .gheVip {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .warpSeatList .seatList .gheVip {
+    font-size: 8px;
+  }
+}
+.warpSeatList .seatList .gheDangChon {
+  background: #0bfd0b;
+  border: 2px solid black;
+  color: #000;
+  cursor: pointer;
+}
+.warpSeatList .seatList .gheDuocChon {
+  border: 2px solid gray;
+  background: gray;
+  color: #000;
+  cursor: no-drop !important;
+}
+.warpSeatList .noteSeat {
+  color: #fff;
+  text-align: center;
+}
+@media screen and (max-width: 768.98px) {
+  .warpSeatList .noteSeat {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .warpSeatList .noteSeat {
+    font-size: 10px;
+  }
+}
+.warpSeatList .noteSeat .btnNote {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768.98px) {
+  .warpSeatList .noteSeat .btnNote {
+    width: 30px;
+    height: 30px;
+  }
+}
+.warpSeatList .noteSeat .GheThuong {
+  background-color: rgb(233, 233, 233);
+}
+.warpSeatList .noteSeat .GheVip {
+  background-color: orange;
+}
+.warpSeatList .noteSeat .GheDaDat {
+  background-color: gray;
+}
+.warpSeatList .noteSeat .GheDangChon {
+  background-color: #0bfd0b;
+}/*# sourceMappingURL=SeatList.module.css.map */

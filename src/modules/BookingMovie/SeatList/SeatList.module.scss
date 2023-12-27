@@ -1,0 +1,145 @@
+.warpSeatList {
+
+    .screen {
+      // border-bottom: 50px solid rgb(255, 159, 95);
+      border-bottom: 45px solid #bababa;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 100px;
+      width: 100%;
+      // filter: drop-shadow(4px 30px 20px rgba(115, 111, 111, 1));
+      filter: drop-shadow(4px 30px 20px rgb(255, 255, 255,.5));
+      font-size: 25px;
+      margin: 0 auto;
+      position: relative;
+  
+      @media screen and (max-width: 768.98px) {
+        border-bottom: 35px solid rgb(117, 116, 116);
+        font-size: 20px;
+      }
+      @media screen and (max-width: 480px) {
+        border-bottom: 25px solid rgb(117, 116, 116);
+        font-size: 16px;
+      }
+  
+      &::after {
+        content: "Màn hình";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: black;
+      }
+    }
+  
+    .seatList {
+      margin: 40px auto;
+      display: grid;
+      grid-template-columns:repeat(16, 1fr);
+      gap: 5px;
+      max-width: 100%;
+  
+      @media screen and (max-width: 768.98px) {
+        gap: 2px;
+      }
+      @media screen and (max-width: 568px) {
+        gap: 0;
+      }
+      
+      .btnSeat {
+        border: 2px solid black;
+        // font-size: 12px;
+        font-size: 0.9em;
+        padding: 0;
+        border-radius: 5px;
+        background-color: rgb(233, 233,233);
+        text-align: center;
+        cursor: pointer;
+        overflow: hidden;
+        color: black;
+  
+        @media screen and (max-width: 768.98px) {
+          font-size: 12px
+        }
+  
+        @media screen and (max-width: 568px) {
+          font-size: 8px
+        }
+  
+  
+      }
+      .gheVip{
+        border: 2px solid black;
+        // font-size: 12px;
+        font-size: 0.9em;
+        padding: 0;
+        border-radius: 5px;
+        background-color: orange;
+        text-align: center;
+        cursor: pointer;
+        overflow: hidden;
+        color: black;
+  
+        @media screen and (max-width: 768.98px) {
+          font-size: 12px
+        }
+        @media screen and (max-width: 568px) {
+          font-size: 8px
+        }
+  
+      }
+  
+      .gheDangChon {
+        background: #0bfd0b;
+        border: 2px solid black;
+        color: #000;
+        cursor: pointer;
+      }
+      .gheDuocChon {
+        border: 2px solid gray;
+        background: gray;
+        color: #000;
+        cursor: no-drop !important;
+      }
+    }
+  
+    .noteSeat {
+      color: #fff;
+      text-align: center;
+  
+      @media screen and (max-width: 768.98px) {
+        font-size: 12px;
+      }
+      @media screen and (max-width: 568px) {
+        font-size: 10px;
+      }
+  
+      .btnNote {
+        width: 40px;
+        height: 40px;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-align: center;
+        margin: 0 auto;
+  
+        @media screen and (max-width: 768.98px) {
+          width: 30px;
+          height: 30px;
+          
+        }
+      }
+  
+      .GheThuong{
+        background-color: rgb(233, 233,233);
+      }
+      .GheVip{
+        background-color: orange;
+      }
+      .GheDaDat{
+        background-color: gray;
+      }
+      .GheDangChon {
+        background-color: #0bfd0b;
+      }
+    }
+  }
