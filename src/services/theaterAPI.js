@@ -16,7 +16,7 @@ const theaterAPI = {
   getTheaterSchedule: () => {
     return fetcher.get("QuanLyRap/LayThongTinLichChieuHeThongRap", {
       params: {
-        maNhom: "GP07",
+        maNhom: "GP09",
       },
     });
   },
